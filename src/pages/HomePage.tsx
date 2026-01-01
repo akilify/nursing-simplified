@@ -142,15 +142,15 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up stagger-3">
-              <Button asChild variant="accent" size="xl">
-                <Link to="/buy">
-                  Browse Books
+              <Button asChild variant="hero" size="xl">
+                <Link to="/programs">
+                  Explore Programs
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </Button>
-              <Button asChild variant="hero-outline" size="xl">
-                <Link to="/learn">
-                  Read Free Articles
+              <Button asChild variant="glass" size="xl">
+                <Link to="/pricing">
+                  View Pricing
                 </Link>
               </Button>
             </div>
